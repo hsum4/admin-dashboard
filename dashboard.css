@@ -61,12 +61,36 @@ body {
 }
 
 .header {
-    background-color: #fad02c;
     grid-column: 2 / 3;
-    padding: 20px;
+    padding: 20px 3%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 20px;
+}
+
+.search-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#search-button {
+    all: unset;
+    width: 24px;
+    height: 24px;
+}
+
+#search-button:hover {
+    cursor: pointer;
+}
+
+#search-bar {
+    background-color: #e3e8ee;
+    border: none;
+    border-radius: 16px;
+    height: 32px;
+    flex-grow: 1;
+    padding: 0 10px;
 }
 
 .profile-info, .header-buttons {
