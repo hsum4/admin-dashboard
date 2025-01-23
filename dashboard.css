@@ -199,6 +199,7 @@ body {
 .card-links{
     display: flex;
     justify-content: end;
+    gap: 20px;
 }
 
 .card-links > svg {
@@ -209,4 +210,26 @@ body {
 .others {
     display: grid;
     grid-template-rows: auto auto;
+}
+
+.announcements-card {
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 2px 6px grey;
+}
+
+.announcement-title {
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+.announcement-text {
+    font-size: 0.85em;
+    color: grey;
+}
+
+hr {
+    margin: 1rem 0;
 }
